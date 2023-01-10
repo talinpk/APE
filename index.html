@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prova Final - 10/06/2021</title>
+    <style>
+        header, footer{
+            display: block;
+        }
+        header{
+            height: 150px;
+        }
+        main{
+            /* Colocar um container layout em grid */
+            /* O container layout em grid deve ter duas colunas */
+            /* Deve ter uma lacuna de 20px entre os itens do grid layout */
+        }
+        main > section{
+            background-color:rgb(230, 230, 230);
+            transition-duration: .1s;
+            
+        }
+        main > section:hover{
+            background-color: rgb(255,165,0);
+            color: rgb(230, 230, 230)
+        }
+        header > h1{
+            border: 1px solid black;
+            width: 400px;
+            margin: 0 auto;
+            text-align: center;
+            
+            /* Adicionar uma animação de 4s linear e infinita */
+        }
+
+        @keyframes move_h1{
+            from, to{
+                /* Translação de 0 nos eixos x e y */
+            }
+
+            50%{
+                /* Translação de +50px no eixo y e um redimensionamento de tamanho (scale) de 1.2 */
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prova de Linguagens de Marcação - 2020.2</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Parte 1</h2>
+            <p>Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+            </p>
+        </section>
+        <section>
+            <h2>Parte 2</h2>
+            <p>Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+            </p>
+        </section>
+        <section>
+            <h2>Parte 3</h2>
+            <p>Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+            </p>
+        </section>
+        <section>
+            <h2>Parte 4</h2>
+            <p>Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+                Texto da parte 1 do conteúdo da disciplina de Linguagens de Marcação.
+            </p>
+        </section>
+        <section>
+            <h2>Formulário</h2>
+            <form action="/recebe_dados" method="POST">
+          
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
